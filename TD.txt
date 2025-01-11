@@ -1,0 +1,98 @@
+Pratique Maven
+Ngor SECK - 18:57
+
+Modules Maven : avec Spring Boot
+
+
+•TD1(fait)
+Créer un projet Maven nommé commandes : projet parent
+Le projet parent est un projet Spring Boot
+Créer les modules Maven suivants : services, web et start
+-services sera un projet qui gère le métier de l'application
+-web gère les contrôleurs
+-start est le projet de démarrage
+
+
+
+•TD1-2
+Modules Maven avec les applications web
+
+Créer un projet Maven nommé commandes : projet parent
+Le projet parent est juste un projet Maven
+Créer les modules Maven suivants : services, web et batch
+-services sera un projet qui gère le métier de l'application
+-web est un projet Tomcat
+-batch est un projet Spring Boot
+
+
+
+•TD1-3
+Modules Maven avec gestion des plugins
+
+Créer un projet Maven nommé commandes : projet parent
+Le projet parent est juste un projet Maven
+Créer les modules Maven suivants : services, web
+-services sera un projet qui gère le métier de l'application
+-web est une application Angular
+
+
+•TD2 
+la sécurité des applications : CAS
+
+Créer une application web Maven.
+Ajouter les dépendances Spring MVC.
+Gérer l'ajout et la liste dans une base de données avec une classe :
+AppUser (id long, name String).
+Gérer la sécurité avec CAS.
+
+
+•TD3
+ la sécurité des applications : Keycloak
+
+Créer une application web Maven.
+Ajouter les dépendances Spring MVC.
+Gérer l'ajout et la liste dans une base de données avec une classe :
+Product (ref String, name String).
+Gérer la sécurité avec Keycloak.
+
+•TD4
+
+
+
+
+-----------------------------david11-01-2025
+LAB1 : 
+1. Modules maven : avec spring boot
+Créer un projet maven nomée commandes : projet parent
+Le projet parent est un projet spring boot
+Créer les modules maven suivants : services, web et start
+services sera un projet qui gere le metier de l'application
+web va gerer les controller
+start est le projet de démarrage
+Vous allez suivre cette series puis completer le projet: https://www.youtube.com/watch?v=l6G8KKYiZxA&list=PLzT281RbfHAYHJ-pIULFeDvMIRxdPwrGt&index=1
+
+2. Modules maven avec les applications web
+Créer un projet maven nomée commandes : projet parent
+le projet parent est juste un projet maven
+Créer les modules maven suivants : services, web et batch
+services sera un projet qui va gerer le metier de l'application
+web est un projet tomcat
+batch est un projet sping boot
+
+3. Modules maven avec gestion des plugins
+Créer un projet maven nomée commandes : projet parent
+le projet parent est juste un projet maven
+Créer les modules maven suivants : services, web
+services sera un projet gere le metier de l'application
+web est une application angular
+
+
+
+LAB2 : Projet 1 : 
+1. Creer une application web maven
+2. Ajouter les dependances spring MVC
+3. Gerer lajout et la liste dans une base de donnees avec une classe : Products(ref String, name String)
+4. Gerer la securite avec CAS Projet 2 : 1. Creer une application web maven
+2. Ajouter les dependances spring MVC
+3. Gerer lajout et la liste dans une base de donnees avec une classe : Product(ref String, name String)
+4. Gerer la securite avec keycloak
