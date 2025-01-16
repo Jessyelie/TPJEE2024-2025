@@ -10,9 +10,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>services</module>
-        <module>web</module>
         <module>batch</module>
+        <module>web</module>
     </modules>
+
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,21 +21,4 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.isi.dev.services</groupId>
-            <artifactId>services</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.isi.dev.batch</groupId>
-            <artifactId>batch</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.isi.dev.web</groupId>
-            <artifactId>web</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 </project>

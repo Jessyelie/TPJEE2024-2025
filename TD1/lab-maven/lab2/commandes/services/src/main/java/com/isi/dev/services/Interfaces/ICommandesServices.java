@@ -1,5 +1,6 @@
-package com.isi.dev.services;
+package com.isi.dev.services.Interfaces;
 
-public class CommandesServices {
+public interface ICommandesServices {
+    String getCommandes();
 
 }
