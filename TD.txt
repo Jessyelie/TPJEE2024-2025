@@ -36,7 +36,7 @@ Créer les modules Maven suivants : services, web
 -web est une application Angular
 
 
-•TD2 
+•TD2 (fait)
 la sécurité des applications : CAS
 
 Créer une application web Maven.
@@ -58,6 +58,17 @@ Gérer la sécurité avec Keycloak.
 
 
 •TD4
+Microservice 1:
+1. Créer un projet web maven nommé stock-ms
+2. Créer les packages entities, repository, service, mapper, dto, config (com.groupeisi.ecommerce)
+3. Gerer les logs dans les controller et les services
+4. Ajouter les TU pour les services avec mockito et JUnit jupiter
+5. Mettez a jour le fichier de configuration hibernate dans application.yml
+6. Ajouter l'entité Product(ref String, name String, stock double, long idUser) et son controller
+7. Metter à jour le projet : dao, dto, mapper, service, controller gerant l'ajout et la liste des produits.
+8. Ajouter les entités Purchases(id long, dateP Date, quantity  double, product Product, long idUser) et Sales(id long, dateP Date,  quantity  double , product Product, long idUser)
+9. Metter à jour le projet : dao, dto, mapper, service, controlleren gerant l'ajout et la liste des achats et des ventes.
+
 
 
 
