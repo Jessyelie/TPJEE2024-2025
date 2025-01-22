@@ -74,7 +74,7 @@ Microservice 1:
 6. Ajouter l'entité Product(ref String, name String, stock double, long idUser) et son controller
 7. Metter à jour le projet : dao, dto, mapper, service, controller gerant l'ajout et la liste des produits.
 8. Ajouter les entités Purchases(id long, dateP Date, quantity  double, product Product, long idUser) et Sales(id long, dateP Date,  quantity  double , product Product, long idUser)
-9. Metter à jour le projet : dao, dto, mapper, service, controlleren gerant l'ajout et la liste des achats et des ventes.
+9. Metter à jour le projet : dao, dto, mapper, service, controller en gerant l'ajout et la liste des achats et des ventes.
 
 
 
