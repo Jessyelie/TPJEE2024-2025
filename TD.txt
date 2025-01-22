@@ -46,7 +46,7 @@ AppUser (id long, name String).
 Gérer la sécurité avec CAS.
 
 
-•TD3
+•TD3(fait)
 la sécurité des applications : Keycloak
 
 Créer une application web Maven.
@@ -54,6 +54,13 @@ Ajouter les dépendances Spring MVC.
 Gérer l'ajout et la liste dans une base de données avec une classe :
 Product (ref String, name String).
 Gérer la sécurité avec Keycloak.
+
+-----
+•demarer keycloak dans docker:
+docker run -p 8080:8080 --name keycloak -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:latest start-dev
+• demarer java avec http://localhost:8180
+-----
+
 
 
 
