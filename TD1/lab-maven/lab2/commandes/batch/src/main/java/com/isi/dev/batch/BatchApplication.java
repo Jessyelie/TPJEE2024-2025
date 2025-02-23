@@ -1,8 +1,6 @@
 package com.isi.dev.batch;
 
 import com.isi.dev.services.CommandesServices;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
