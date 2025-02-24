@@ -4,7 +4,7 @@ Ngor SECK - 18:57
 Modules Maven : avec Spring Boot
 
 
-•TD1(fait)
+•TD1:lab1(fait)
 Créer un projet Maven nommé commandes : projet parent
 Le projet parent est un projet Spring Boot
 Créer les modules Maven suivants : services, web et start
@@ -14,7 +14,7 @@ Créer les modules Maven suivants : services, web et start
 
 
 
-•TD1-2(fait)
+•TD1-2:lab2(fait)
 Modules Maven avec les applications web
 
 Créer un projet Maven nommé commandes : projet parent
@@ -26,7 +26,7 @@ Créer les modules Maven suivants : services, web et batch
 
 
 
-•TD1-3(fait)
+•TD1-3:lab3(fait)
 Modules Maven avec gestion des plugins
 
 Créer un projet Maven nommé commandes : projet parent
